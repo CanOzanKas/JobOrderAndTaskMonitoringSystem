@@ -1,0 +1,21 @@
+﻿using JobOrderAndTaskMonitoringSystem.Core.Enums;
+
+namespace JobOrderAndTaskMonitoringSystem.Core.Entities.Task {
+    public class Task {
+        public int Id { get; set; }
+        public int JobOrderId { get; set; }
+        public string Title { get; set; }
+
+        public string Description { get; set; }
+
+        public int AssignedTo { get; set; }
+
+        public DateTime DueDate { get; set; }
+
+        public StatusEnum Status { get; set; }
+
+        public DateTime CreatedDate { get; set; }
+
+        public DateTime UpdatedDate { get; set; }
+    }
+}

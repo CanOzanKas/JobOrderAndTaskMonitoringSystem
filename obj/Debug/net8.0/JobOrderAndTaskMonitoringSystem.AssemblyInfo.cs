@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JobOrderAndTaskMonitoringSystem")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aff59b22dc5a5c2a26ab16ba7079edf67c904bdb")]
 [assembly: System.Reflection.AssemblyProductAttribute("JobOrderAndTaskMonitoringSystem")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JobOrderAndTaskMonitoringSystem")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
