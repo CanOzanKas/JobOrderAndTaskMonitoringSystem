@@ -1,7 +1,7 @@
 ﻿using JobOrderAndTaskMonitoringSystem.Core.Enums;
 
-namespace JobOrderAndTaskMonitoringSystem.Core.Entities.Task {
-    public class Task {
+namespace JobOrderAndTaskMonitoringSystem.Core.Entities.UserTask {
+    public class UserTask {
         public int Id { get; set; }
         public int JobOrderId { get; set; }
         public string Title { get; set; }

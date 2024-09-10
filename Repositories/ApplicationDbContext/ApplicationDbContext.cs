@@ -2,9 +2,9 @@
 using JobOrderAndTaskMonitoringSystem.Core.Entities.User;
 using JobOrderAndTaskMonitoringSystem.Core.Entities.JobOrder;
 using Microsoft.EntityFrameworkCore;
-using JobOrderAndTaskMonitoringSystem.Core.Entities.Department;
+using JobOrderAndTaskMonitoringSystem.Core.Entities.DepartmentEntity;
 
-namespace JobOrderAndTaskMonitoringSystem.Repository.ApplicationDbContext {
+namespace JobOrderAndTaskMonitoringSystem.Repositories.AppDbContext {
     public class ApplicationDbContext:DbContext {
         public ApplicationDbContext(DbContextOptions options) : base(options) { }
 
